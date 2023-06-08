@@ -54,7 +54,7 @@ streaming_llm = OpenAI(
         StreamingStdOutCallbackHandler()
     ]),
     verbose=True,
-    max_tokens=150,
+    max_tokens=300,
     temperature=0.2
 )
 

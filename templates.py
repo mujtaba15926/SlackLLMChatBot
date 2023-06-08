@@ -1,7 +1,6 @@
 from langchain.prompts.prompt import PromptTemplate
 
-template = """Given the following chat history and a follow up question, rephrase the follow up input question to be a standalone question.
-Or end the conversation if it seems like it's done.
+template = """Given the following chat history and a follow up question, either use the question as a follow-up or a stand alone question. Exercise your intelligence.
 Chat History:\"""
 {chat_history}
 \"""
