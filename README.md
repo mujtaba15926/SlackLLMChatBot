@@ -9,3 +9,6 @@ I would reccommend using the approach mentioned above for Redis because one of t
 
 You will also have to download these libraries:
 langchain==0.0.123, openai==0.27.2, redis==4.5.3, numpy, pandas, gdown
+
+ngrok http 3000
+docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:latest
